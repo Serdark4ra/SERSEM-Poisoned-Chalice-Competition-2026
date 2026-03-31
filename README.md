@@ -11,10 +11,20 @@ This repository contains the replication package for our submission to the [Pois
 ## Repository Structure
 
 ```
-replication_bigcode_starcoder2-3b_20260317_234631/
+SERSEM-Poisoned-Chalice-Competition-2026/
 ├── README.md                      # This file
 ├── run_pipeline.sh                # Main execution script
 ├── .env                           # Configuration file (customize before running)
+│
+├── baselines/                     # Baseline attacks
+│   ├── Loss.py
+│   ├── MIAttack.py
+│   ├── MinKProbAttack.py
+│   ├── Pac.py
+│   ├── process.py
+│   ├── requirements.txt
+│   └── run.py
+│   └── results/
 │
 ├── code/                          # Source code
 │   ├── run.py                     # Main experiment runner
