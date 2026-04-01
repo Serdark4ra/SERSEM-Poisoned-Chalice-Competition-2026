@@ -16,7 +16,7 @@ SERSEM-Poisoned-Chalice-Competition-2026/
 ├── run_pipeline.sh                # Main execution script
 ├── .env                           # Configuration file (customize before running)
 │
-├── baselines/                     # Baseline attacks
+├── baselines/                     # Baseline attacks 
 │   ├── Loss.py
 │   ├── MIAttack.py
 │   ├── MinKProbAttack.py
@@ -24,7 +24,7 @@ SERSEM-Poisoned-Chalice-Competition-2026/
 │   ├── process.py
 │   ├── requirements.txt
 │   └── run.py
-│   └── results/
+│   └── results/                    # Results from baselines run on our test set
 │
 ├── code/                          # Source code
 │   ├── run.py                     # Main experiment runner
