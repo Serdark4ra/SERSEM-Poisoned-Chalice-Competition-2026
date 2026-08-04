@@ -199,7 +199,7 @@ export TRANSFORMERS_CACHE=$HF_HOME/transformers
 If you use this work, please cite:
 
 ```bibtex
-@inproceedings{10.1145/3803437.3807734,
+@inproceedings{Dikici2026SERSEM,
 author = {Dikici, K{\i}van{\c c} Kuzey and Kara, Serdar and {\c C}a{\u g}lar, Semih and T{\"u}z{\"u}n, Eray and Sav, Sinem},
 title = {SERSEM: Selective Entropy-Weighted Scoring for Membership Inference in Code Language Models},
 year = {2026},
@@ -209,7 +209,7 @@ address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3803437.3807734},
 doi = {10.1145/3803437.3807734},
 booktitle = {Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering},
-pages = {1456–1459},
+pages = {1456--1459},
 numpages = {4},
 keywords = {large language models, privacy, memorization, membership inference, data leakage, selective entropy scoring},
 location = {Concordia University, Montreal, QC, Canada},
