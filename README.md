@@ -1,3 +1,5 @@
+🏆 **SERSEM got 1st place at the Poisoned Chalice Competition!**
+
 # SERSEM: Selective Entropy-Weighted Scoring for Membership Inference in Code Language Models
 
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3803437.3807734-blue)](https://doi.org/10.1145/3803437.3807734)
