@@ -1,5 +1,7 @@
 # SERSEM: Selective Entropy-Weighted Scoring for Membership Inference in Code Language Models
 
+[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3803437.3807734-blue)](https://doi.org/10.1145/3803437.3807734)
+
 This repository contains the replication package for our submission to the [Poisoned Chalice Competition](https://poisonedchalice.github.io), which evaluates membership inference attacks against code language models.
 
 ## Paper and Competition
@@ -189,3 +191,26 @@ export TRANSFORMERS_CACHE=$HF_HOME/transformers
 ```
 
 **Note**: This is a research artifact. The membership inference attack implemented here is intended for studying privacy risks in code language models and developing defenses. Please use responsibly and ethically.
+
+## How to Cite
+
+If you use this work, please cite:
+
+```bibtex
+@inproceedings{10.1145/3803437.3807734,
+author = {Dikici, K{\i}van{\c c} Kuzey and Kara, Serdar and {\c C}a{\u g}lar, Semih and T{\"u}z{\"u}n, Eray and Sav, Sinem},
+title = {SERSEM: Selective Entropy-Weighted Scoring for Membership Inference in Code Language Models},
+year = {2026},
+isbn = {9798400726361},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3803437.3807734},
+doi = {10.1145/3803437.3807734},
+booktitle = {Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering},
+pages = {1456–1459},
+numpages = {4},
+keywords = {large language models, privacy, memorization, membership inference, data leakage, selective entropy scoring},
+location = {Concordia University, Montreal, QC, Canada},
+series = {FSE Companion '26}
+}
+```
